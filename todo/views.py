@@ -2,7 +2,6 @@ from django.views.generic import TemplateView, CreateView, DeleteView, ListView
 from django.urls import reverse_lazy
 from todo.models import Todo
 
-
 class TodoVueOnlyTV(TemplateView):
     template_name = 'todo/todo_vue_only.html'
 
